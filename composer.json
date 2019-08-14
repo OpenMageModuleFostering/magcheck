@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/MagCheck",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Magcheck gateway electronic check payment module.",
+    "authors": [
+    {
+        "name": "MagCheck",
+        "email": "MagCheck@MagCheck.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

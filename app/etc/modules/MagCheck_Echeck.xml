@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <MagCheck_Echeck>
+            <active>true</active>
+            <codePool>local</codePool>
+        </MagCheck_Echeck>
+    </modules>
+</config>

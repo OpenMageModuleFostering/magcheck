@@ -1,0 +1,7 @@
+<?php if($_info = $this->getInfo()): ?>
+<?php echo $this->__('Bank routing number: %s', $this->htmlEscape($_info->getEcheckRoutingNumber())) ?><br />
+<?php echo $this->__('Bank name: %s', $this->htmlEscape($_info->getEcheckBankName())) ?><br />
+<?php echo $this->__('Account type: %s', $this->htmlEscape($_info->getEcheckAccountType())) ?><br />
+<!-- <?php echo $this->__('Account name: %s', $this->htmlEscape($_info->getEcheckAccountName())) ?><br /> -->
+<?php echo $this->__('Account number: ***%s', $this->htmlEscape($_info->getEcheckBankAcctNum4())) ?><br />
+<?php endif; ?>
